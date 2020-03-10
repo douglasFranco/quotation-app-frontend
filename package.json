@@ -9,6 +9,8 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "chart.js": "^2.9.3",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
     "react": "^16.13.0",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.13.0",
@@ -34,9 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.1"
   }
 }
