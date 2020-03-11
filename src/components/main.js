@@ -4,7 +4,8 @@ import Chart from './todayCharts'
 
 const Main = () => {
   const [quotes, setQuotes] = useState([])
-  const apiUrl = 'https://quotation-app-backend.herokuapp.com/api/quotes/today'
+  const apiUrl = process.env.REACT_APP_API_URI ? process.env.REACT_APP_API_URI : 'http://localhost:3003/api/quotes/today'
+  console.log(apiUrl)
 
   useEffect (() => {
        axios.get(apiUrl)
