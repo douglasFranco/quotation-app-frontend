@@ -38,7 +38,6 @@ const Charts = (props) => {
     ]
   }
 
-  console.log('chart',props.data)
   return (
     <div className="mb-5">      
       <h3 className="m-3">Today</h3>
